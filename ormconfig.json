@@ -1,8 +1,8 @@
 {
-    "type": "mssql",
+    "type": "mysql",
     "host": "localhost",
-    "username": "sa",
-    "password": "rubzubCOD15",
+    "username": "root",
+    "password": "",
     "database": "TypeOrm",
     "entities": ["dist/models/**/*.js"],
     "synchronize": true
