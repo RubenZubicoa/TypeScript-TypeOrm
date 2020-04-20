@@ -1,0 +1,29 @@
+{
+  "name": "TypeOrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mssql": "^6.2.0",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/morgan": "^1.9.0",
+    "@types/node": "^13.9.3",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}

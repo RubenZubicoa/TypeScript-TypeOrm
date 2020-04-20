@@ -1,0 +1,9 @@
+{
+    "type": "mssql",
+    "host": "localhost",
+    "username": "sa",
+    "password": "rubzubCOD15",
+    "database": "TypeOrm",
+    "entities": ["dist/models/**/*.js"],
+    "synchronize": true
+ }
